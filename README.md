@@ -38,6 +38,7 @@ curl --location --request GET 'https://api.threatstream.com/api/v1/orgadmin/' \
 <img src="./images/Postman User List.png" width=50%>
 </div>
 <br>
+<br>
 
 Send a PATCH request to `https://api.threatstream.com/api/v1/orgadmin/{user_id}/` so that you can force password change for the user. Here comes a sample curl command. 
 ```
@@ -53,6 +54,7 @@ curl --location --request PATCH 'https://api.threatstream.com/api/v1/orgadmin/64
 <img src="./images/Postman Force Password Change.png" width=50%>
 </div>
 <br>
+<br>
 
 Go Anomali UI portal and check the user status. You can see the user must change the password.
 <br>
@@ -62,6 +64,7 @@ Go Anomali UI portal and check the user status. You can see the user must change
 <br>
 <br>
 <br>
+
 
 # Issue Reporting
 If you have found a bug or if you have updates request, please report them at this repository issues section.
